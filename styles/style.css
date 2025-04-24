@@ -95,7 +95,7 @@
 .cover {
   position: relative;
   margin: 86px 0 175px;
-  padding: 165px 50px;
+  padding: 165px 50px 0px 50px;
   background-image: url("../images/cover.jpg");
   background-position: center;
   background-size: cover;
@@ -127,6 +127,7 @@
   position: relative;
   z-index: 2;
   display: flex;
+  flex-direction: row;
   align-items: center;
   margin-top: 120px;
   padding-bottom: 56px;
@@ -178,7 +179,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  min-height: 565px;
+  min-height: 604px;
   padding: 50px 40px;
   color: white;
   text-decoration: none;
@@ -201,7 +202,7 @@
 .card__title {
   position: relative;
   z-index: 2;
-  margin: 0;
+  margin-top: 0;  
   font-size: 22px;
   text-transform: uppercase;
   text-decoration: underline;
@@ -213,12 +214,13 @@
   font-size: 20px;
   line-height: 1.2;
   margin-bottom: 0;
+  margin-top: auto;
 }
 
 /* About */
 .about {
   display: flex;
-  margin: 182px 24px 176px;
+  margin: 157px 24px 156px;
 }
 
 .about__logo-column {
@@ -232,7 +234,7 @@
   align-items: center;
   width: 240px;
   height: 240px;
-  margin: 0 47px 0 0;
+  margin: -29px 47px -4px 48px;
   border-radius: 50%;
   background-color: black;
 }
@@ -242,11 +244,11 @@
 }
 
 .about__content {
-  width: 59%;
+  width: 80%;
 }
 
 .about__title {
-  margin: 100px 0;
+  margin: 74px 0 101px 0;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
@@ -269,6 +271,7 @@
   justify-content: space-between;
   align-items: flex-start;
   margin: 0 50px 86px;
+  padding: 25px 0 0;
 }
 
 .footer__address {
